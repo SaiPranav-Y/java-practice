@@ -6,7 +6,7 @@ public class Basicprogram {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double d = scan.nextDouble();
-        scan.nextLine();
+        scan.nextLine(); // Here, we need to add this line to clear buffer so that string can be read.
         String s = scan.nextLine();
 
         System.out.println("String: " + s);
