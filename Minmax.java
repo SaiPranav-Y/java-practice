@@ -5,8 +5,8 @@ public class Minmax{
         int min = nums[0];
         int max = nums[0];
         
-        for(int i=0;i<n;++i){
-            if(min>nums[i]){
+        for(int i=0;i<n;++i){ // This for loop iterates over the array. The minimum and maximum element finally gets stored at the 
+            if(min>nums[i]){  // end of the loop. 
                 min = nums[i];
             }
             
